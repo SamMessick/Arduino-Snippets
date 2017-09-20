@@ -1,5 +1,5 @@
 To use the following Arduino code, please download and install the latest Arduino IDE from <a href="https://www.arduino.cc/en/Main/Software"> Aruino's main page </a>. The software is intended to run on an
-ESP8266 WiFi module, sold seperately.
+ESP8266 WiFi module, sold seperately. For the server to be accessible to exterior entitiees, be sure that your server is set up with a public IP address on your network.
 
 <h1><b> To get the program up and running, </b></h1>
 
@@ -14,4 +14,6 @@ statements.
 <p>3) Compile and export the Simple_Web_Server.ini<br>
 file to your ESP8266 WiFi module, and you're ready<br>
 to go. Plug in your LED fixtures into the 6, 7 and 8<br>
-pins and enjoy! </i>
+pins. 
+<p>4) Navigate to the IP address of your ESP module, printed<br>
+in your serial output screen.</i>
